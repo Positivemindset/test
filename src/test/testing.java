@@ -15,7 +15,7 @@ public static String chromeDriverPath = "/usr/bin/chromedriver";
 
 @Given("^open url$")
 public void open_url() throws Throwable {
-
+ 
 	System.setProperty("webdriver.chrome.driver", chromeDriverPath);
 	WebDriver driver = new ChromeDriver();
 	driver.get("www.google.com");
