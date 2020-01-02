@@ -23,7 +23,7 @@ import java.util.Date;
 
 
         plugin = {"com.cucumber.listener.ExtentCucumberFormatter","html:target/cucumber-html-report1","rerun:target/rerunMX1.txt"})
-  public class  DefaultRunner {
+  public class  DefaultRunner { 
 
    
   }
