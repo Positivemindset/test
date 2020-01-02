@@ -16,7 +16,7 @@ import java.util.Date;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 
-        glue = {"src/test"},
+        glue = {"src"},
         features = {"."},
 
         tags = {"@testfeature"},
