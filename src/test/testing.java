@@ -20,7 +20,7 @@ public void open_url() throws Throwable {
 	WebDriver driver = new ChromeDriver();
 	driver.get("www.google.com");
 	System.out.println (driver.getTitle());
-}
+} 
 
 @When("^click on something$")
 public void click_on_something() throws Throwable {
